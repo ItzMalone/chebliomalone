@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<!-- saved from url=(0047)file:///C:/Users/Admin/OneDrive/Desktop/oo.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chepkoiyo SDA Church</title>
+
+<style>
+    body {
+        background-color: green;
+        font-family: Arial, sans-serif;
+        color: white;
+        margin: 0;
+        padding: 0;
+    }
+
+    header {
+        text-align: center;
+        padding: 25px;
+        background: #024d12;
+    }
+
+    header h1 {
+        margin: 0;
+        font-size: 40px;
+    }
+    header p {
+        margin: 5px 0;
+        font-size: 18px;
+    }
+
+    nav {
+        display: flex;
+        justify-content: center;
+        background: #046b1c;
+        padding: 12px;
+        position: sticky;
+        top: 0;
+        z-index: 10;
+    }
+
+    nav a {
+        color: white;
+        padding: 10px 20px;
+        margin: 0 5px;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    nav a:hover {
+        background: #013f0c;
+        border-radius: 5px;
+    }
+
+    section {
+        padding: 25px;
+        max-width: 900px;
+        margin: auto;
+    }
+
+    h2 {
+        text-align: center;
+        margin-bottom: 10px;
+        text-decoration: underline;
+    }
+
+    .home-img {
+        width: 100%;
+        border-radius: 10px;
+        margin-top: 15px;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 15px;
+    }
+
+    th, td {
+        border: 1px solid white;
+        padding: 10px;
+    }
+
+    th {
+        background: #013f0c;
+    }
+
+    iframe {
+        width: 100%;
+        height: 350px;
+        border: none;
+        border-radius: 10px;
+        margin-top: 10px;
+    }
+
+    footer {
+        background: #024d12;
+        text-align: center;
+        padding: 15px;
+        margin-top: 30px;
+    }
+</style>
+
+</head>
+<body>
+
+<header>
+    <h1>CHEPKOIYO SDA CHURCH</h1>
+    <p>All Are Welcomed</p>
+</header>
+
+<nav>
+    <a href="file:///C:/Users/Admin/OneDrive/Desktop/oo.html#home">Home</a>
+    <a href="file:///C:/Users/Admin/OneDrive/Desktop/oo.html#about">About</a>
+    <a href="file:///C:/Users/Admin/OneDrive/Desktop/oo.html#leaders">Leadership</a>
+    <a href="file:///C:/Users/Admin/OneDrive/Desktop/oo.html#members">Members</a>
+    <a href="file:///C:/Users/Admin/OneDrive/Desktop/oo.html#giving">Giving</a>
+    <a href="file:///C:/Users/Admin/OneDrive/Desktop/oo.html#location">Location</a>
+    <a href="file:///C:/Users/Admin/OneDrive/Desktop/oo.html#contact">Contact</a>
+</nav>
+
+<!-- HOME SECTION -->
+<section id="home">
+    <h2>Welcome to Chepkoiyo SDA Church</h2>
+    <p>We are a community of believers dedicated to worship, fellowship, and spiritual growth.</p>
+
+    <img src="file:///C:/Users/Admin/OneDrive/Desktop/church.jpg" alt="Chepkoiyo SDA Church" class="home-img">
+
+    <h3>Mission Statement</h3>
+    <p>To proclaim the everlasting gospel of Jesus Christ and prepare people for His soon return.</p>
+</section>
+
+<!-- ABOUT SECTION -->
+<section id="about">
+    <h2>About the Church</h2>
+
+    <p><strong>Church Name:</strong> Chepkoiyo Seventh-day Adventist Church</p>
+    <p><strong>District:</strong> Kapkeringon District</p>
+    <p><strong>Station:</strong> Kaigat station</p>
+    <p><strong>field:</strong> West Rift Valley field </p>
+
+    <h3>Our Beliefs</h3>
+    <p>We observe the Seventh-day Sabbath and believe in the Second Coming of Jesus Christ.</p>
+</section>
+
+<!-- LEADERSHIP SECTION -->
+<section id="leaders">
+    <h2>Church Leadership</h2>
+
+    <h3>District Pastor</h3>
+    <p><strong>Pr. Christoper Kemei</strong></p>
+
+    <h3>Sabbath School Elders</h3>
+
+    <h4>Chepkoiyo</h4>
+    <ul>
+        <li>Elder Nelson Lelei</li>
+        
+    </ul>
+
+    <h4>Kapkomu</h4>
+    <ul>
+        <li>Elder Hilary Misoi</li>
+        
+    </ul>
+
+    <h4>Kapcheno</h4>
+    <ul>
+        <li>Elder Joel Busienei</li>
+        
+    </ul>
+</section>
+
+<!-- MEMBERS SECTION -->
+<section id="members">
+    <h2>Church Members</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Phone</th>
+                <th>Email (Optional)</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Hilary Misoi</td>
+                <td>0723261163</td>
+                <td>hilarykipsang77@gmail.com</td>
+            </tr>
+
+            <tr>
+                <td>Milka Misoi</td>
+                <td>0717531755</td>
+                <td>milkajerotich77@gmail.com</td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+
+<!-- GIVING SECTION -->
+<section id="giving">
+    <h2>Tithes &amp; Offering</h2>
+
+    <h3>Give via Treasurer</h3>
+    <p><strong>Treasurer Number:</strong> <span id="treasurer-number">+254 712 </span></p>
+
+    <h3>Give through CFMS</h3>
+    <p><strong>CFMS Church Code:</strong> 805000</p>
+
+    <button onclick="updateTreasurerNumber(prompt(&#39;Enter new number:&#39;))" style="padding:10px; background:#013f0c; color:white; border:none; cursor:pointer;">
+        Admin: Update Treasurer Number
+    </button>
+</section>
+
+<script>
+function updateTreasurerNumber(newNum) {
+    if (newNum) {
+        document.getElementById('treasurer-number').textContent = newNum;
+    }
+}
+</script>
+
+<!-- LOCATION SECTION -->
+<section id="location">
+  <h2>Church Location</h2>
+  <p>Chepkoiyo SDA Church is located in <strong>Chepkoiyo, Nandi County, Kenya</strong>.</p>
+
+  <div style="width:100%; max-width:900px; margin:auto;">
+    <iframe src="./Chepkoiyo SDA Church_files/embed.html" width="100%" height="350" frameborder="0" style="border:0; border-radius: 10px;" allowfullscreen="" loading="lazy">
+    </iframe>
+  </div>
+</section>
+
+<!-- CONTACT SECTION -->
+<section id="contact">
+    <h2>Contact Us</h2>
+
+    <p><strong>Phone:</strong> 0720 000 000</p>
+    <p><strong>Email:</strong> chepkoiyosda@gmail.com</p>
+    <p>Reach out for inquiries, prayer requests or church programs.</p>
+</section>
+
+<footer>
+    <p>© 2025 Chepkoiyo SDA Church</p>
+</footer>
+
+
+</body></html>
